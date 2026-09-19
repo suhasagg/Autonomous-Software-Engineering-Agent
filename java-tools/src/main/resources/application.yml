@@ -1,0 +1,20 @@
+server:
+  port: 8081
+spring:
+  application:
+    name: coding-mcp-tools
+  ai:
+    mcp:
+      server:
+        name: coding-workspace
+        version: 1.0.0
+        protocol: STREAMABLE
+        type: SYNC
+        instructions: "Governed repository and build tools. Writes require approval."
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info,prometheus
+workspace:
+  root: /workspaces

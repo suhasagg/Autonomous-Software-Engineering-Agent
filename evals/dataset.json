@@ -1,0 +1,14 @@
+[
+  {
+    "id": "negative-refund",
+    "issue": "Reject negative refund amounts with IllegalArgumentException and add a unit test.",
+    "expected": [
+      "IllegalArgumentException"
+    ]
+  },
+  {
+    "id": "minimal-change",
+    "issue": "Document RefundService with a short class comment without changing behavior.",
+    "expected": []
+  }
+]
